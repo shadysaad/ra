@@ -7,9 +7,9 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '*';
-const discord_token = "NTIzODIzNjI5Mzk0NTA5ODI3.Dvg5bA.J1lOnu7Jqnnvg5oqdWT4UZJ6JnM";
-client.login(discord_token);
+const prefix = '1';
+const discord_token = "NTI0NTIzMTk1NTcxNzY1MjU4.DvpWaA.PeTmpAJrD0j9ewR3oRer39veoh0";
+client.login(NTI0NTIzMTk1NTcxNzY1MjU4.DvpWaA.PeTmpAJrD0j9ewR3oRer39veoh0);
 client.on('ready', function() {
 	console.log(`i am shgamer ${client.user.username}`);
 });
@@ -231,4 +231,4 @@ client.on('message', function(message) {
 		return str.toLowerCase().indexOf('youtube.com') > -1;
 	}
 });
-client.login("NTIzODIzNjI5Mzk0NTA5ODI3.Dvg5bA.J1lOnu7Jqnnvg5oqdWT4UZJ6JnM"); 
+client.login("NTI0NTIzMTk1NTcxNzY1MjU4.DvpWaA.PeTmpAJrD0j9ewR3oRer39veoh0"); 
